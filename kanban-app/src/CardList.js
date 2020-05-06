@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import PropTypes from 'prop-types';
 
 export default class CardList extends React.Component {
     render() {
@@ -7,6 +8,7 @@ export default class CardList extends React.Component {
         this.props.cards.forEach(card => cardComponents.push(<Card 
             key={ card.id }
             title={ card.title }
+            color={card.color}
             description={ card.description }
             tasks={ card.tasks }
         />));
@@ -18,4 +20,9 @@ export default class CardList extends React.Component {
             </div>
         )
     }
+}
+
+CardList.propTypes = {
+    title: PropTypes.string.isRequired,
+    cards: PropTypes.arrayOf(PropTypes.object).isRequired
 }
