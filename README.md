@@ -19,5 +19,5 @@
 5) Routing
 6) Flux(Reactive Programming) :  Redux(React.js), WebFlux(Spring), Nuxt(Vue.JS)
 7) Testing
-8) Performance Tunning 
+8) Performance Tunning
 </pre>
