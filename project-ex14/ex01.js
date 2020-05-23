@@ -12,7 +12,7 @@ updateProducts1.push({
     "no": "s001-001",
     "name": "블루양말",
     "price": 1000,
-    "amount": 2  
+    "amount": 2
 });
 
 //console.log(state.order.products, updateProducts1, state.order.products === updateProducts1);
@@ -26,7 +26,7 @@ let updateProducts2 = state.order.products.concat({
     "no": "s001-001",
     "name": "블루양말",
     "price": 1000,
-    "amount": 2  
+    "amount": 2
 });
 //console.log(state.order.products, updateProducts2, state.order.products === updateProducts2);
 //===================================================

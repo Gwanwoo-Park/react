@@ -16,7 +16,7 @@ export default class TaskList extends React.Component {
             <div>
                 <ul>
                     { this.props.tasks.map(task => <li
-                            key={ task.id } 
+                            key={ task.id }
                             className={ styles.Task }>
                             <input type='checkbox' defaultChecked={ task.done } />
                             { task.name }

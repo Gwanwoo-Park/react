@@ -48,7 +48,7 @@ export default class KanbanBoard extends React.Component {
                 cards: newCards
             });
         })
-        .catch( err => console.error( err ));        
+        .catch( err => console.error( err ));
 
     }
 
@@ -95,7 +95,7 @@ export default class KanbanBoard extends React.Component {
         .then( json => this.setState({
             cards: json.data
         }))
-        .catch( err => console.error( err ));        
+        .catch( err => console.error( err ));
     }
 }
 
